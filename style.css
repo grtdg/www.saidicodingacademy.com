@@ -1,0 +1,112 @@
+.sd {
+    text-align: justify;
+    color: chartreuse;
+}
+
+.content {
+    text-align: center;
+}
+
+.icon {
+    color: brown;
+}
+
+p1 {
+    text-align: left;
+    display: inline;
+    flex-direction: column-reverse;
+    
+}
+h1 {
+  color: yellow;
+  background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.join-us {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.join-us h1 {
+    color: #333;
+}
+
+.join-us p {
+    color: #666;
+}
+
+.join-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+    background-color: #0056b3;
+} 
+
+.content{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+
+.sd {
+    text-align: center;
+  }
+
+
+
+  /* Styling the navigation container */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px; /* Add space inside the nav */
+  }
+  
+  /* Styling the list container (ul) */
+  .nav-list {
+    list-style-type: none; /* Remove default list styling */
+    display: flex; /* Display the list horizontally */
+    justify-content: space-around; /* Space out the list items evenly */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styling the list items (li) */
+  .nav-list li {
+    margin: 0 15px; /* Add horizontal spacing between list items */
+  }
+  
+  /* Styling the links (a) */
+  .nav-list a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    font-size: 16px;
+    padding: 5px 10px; /* Padding around each link */
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect */
+  .nav-list a:hover {
+    background-color: #555; /* Change background color on hover */
+    border-radius: 5px; /* Rounded corners */
+  }
